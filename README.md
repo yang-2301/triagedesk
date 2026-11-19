@@ -1,5 +1,9 @@
 # TriageDesk
 
+![Architecture](docs/architecture.svg)
+
+![TriageDesk dashboard: SLA stats, created-vs-resolved chart, breach list](docs/ui-demo.png)
+
 **A support desk where every ticket is auto-triaged on arrival — category, priority and a draft reply — before a human ever sees it.**
 
 Full-stack, from the database schema to the browser: FastAPI + SQLAlchemy + JWT auth + RBAC on the backend; Vue 3 + TypeScript + Pinia + Vite on the frontend. Designed to run offline with zero external services, with an optional LLM upgrade path.
